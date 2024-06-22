@@ -1,0 +1,31 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.banner {
+  background-color: #088395;
+  color: white;
+  padding: 4rem;
+  background-image: url("");
+}
+.banner h1 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+.content {
+  font-size: 22px;
+}
+.banner img {
+  width: 4rem;
+  height: 4rem;
+  border: 5px solid white;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+img + img {
+  margin-left: -1rem;
+}
